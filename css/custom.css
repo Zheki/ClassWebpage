@@ -1,0 +1,127 @@
+*{
+    text-decoration: none;
+}
+
+
+body{
+    background-color: #c4ffff;
+}
+
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #af43be;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fd8090;
+}
+
+/* NE ZABORAVAJ BOJA */
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 177, 208, 224.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
+img.no-resize{
+    min-width: 480px;
+}
+
+.w-75 {
+    width: 75%;
+    height: 80%!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background: black;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 30%;
+    left: 15%;
+    right: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    font-size: 20pt;
+    background-color: rgba(0,0,0,.5);
+}
+
+h5, .h5{
+    font-size: 30pt;
+    
+}
+
+h5.card-title, p.card-text{
+    color: skyblue;
+}
+
+#midrow_text{
+    font-size: 32pt;
+    text-align: center;
+    font-family: 'Chivo', sans-serif;
+}
+
+.col-md-8 .h5 h5 {
+    color: skyblue;
+    font-family: 'Chivo', sans-serif;
+}
+
+hr {
+    margin: 60px;
+    color: #af43be;
+    background-color: currentColor;
+    border: 0;
+    opacity: .25;
+}
+
+hr:not([size]) {
+    height: 2px;
+}
+
+@media (max-width: 767px) {    
+    #reverse_featurette{
+    
+        flex-flow:column-reverse  }
+
+}
+
+
+#painting_3, #painting_2, #painting_1{
+    width:80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: ivory;
+
+}
+
+#painting_container .row{
+    align-items: flex-end;
+}
+
+.row h5{
+    background: rgba(0,0,0,.125);
+}
+
+.row p{
+    font-size:20pt;
+    background: rgba(0,0,0,.125)
+}
+
+#painting_container p{
+    background: none;
+    width:80%;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right:10%;
+}
